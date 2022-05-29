@@ -5,7 +5,7 @@ class RefsExample extends React.Component {
     render() {
         return(
             <div>
-
+                <h2>Refs Example</h2>
             </div>
         )
     }
