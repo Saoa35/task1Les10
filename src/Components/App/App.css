@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.modal {
+  animation: showModal .3s ease-out;
+  border: 2px solid rgb(160, 58, 10);
+  margin:auto;
+  position: absolute;
+  max-width: 340px;
+  width:100%;
+  background-color:rgb(130, 214, 206);
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: fit-content;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.modal-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  cursor:pointer;
+  border-style: none;
+  background-color: rgb(62, 11, 213);
+  font-size: 1.2rem;
+  color: azure;
+}
