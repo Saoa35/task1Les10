@@ -1,10 +1,14 @@
+import ContextExample from '../ContextExample/ContextExample';
+import Parent from '../Portal/Portal';
 import RefsExample from '../RefsExample/RefsExample';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <RefsExample/>
+      {/* <RefsExample/> */}
+      {/* <ContextExample/> */}
+      <Parent/>
     </div>
   );
 }
